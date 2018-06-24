@@ -172,8 +172,7 @@
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>cli</shadedClassifierName>
                             <transformers>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>net.bican.wordpress.Main</mainClass>
                                 </transformer>
                             </transformers>
@@ -231,7 +230,7 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
-                    <check />
+                    <check/>
                 </configuration>
             </plugin>
         </plugins>
@@ -293,7 +292,7 @@
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.2</version>
         </dependency>
         <dependency>
             <groupId>commons-lang</groupId>
